@@ -8,12 +8,47 @@
 
     background-color: #ffffe6;
   }
+  nav {
+      float: left;
+      max-width: 100px;
+      margin: 10px;
+      padding: 0px;
+      border:2px solid black;
+      background-color: #333333;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+    background-color: #333333
+    border:10px solid black;
+
+  }
+
+nav li a{
+  display:block;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  padding:16px
+
+}
+li {
+  border:1px solid #00131a;
+}
+
+nav li a:hover{
+  background-color: #111111;
+}
+
   img.front{
-    border: 12px solid black;
+    border: 5px solid black;
     outline-color:white;
     outline-style: solid;
-    width: 1278px;
-    height: 275px;
+    width: 1280px;
+    height: 500px;
     display: block;
     margin:auto;
   }
@@ -33,7 +68,7 @@
     font-size: 15px;
     font-family: courier;
     color: black;
-    padding-right: 1000px;
+    padding: 10px;
 
   }
   div.sideprojects{
@@ -51,12 +86,24 @@
   }
 
 
+</style>
 
-  </style>
 </head>
 
 <body>
-  <img src="BackGround_Pictures/Tunnel.jpg" alt="Tunnel.jpg"; class = "front"> <br>
+
+  <nav>
+  <ul>
+   <li><a href="#about">About</a></li>
+   <li><a href="#sideprojects">Projects</a></li>
+   <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+  <img src="BackGround_Pictures/Bridge.jpg" alt="Tunnel.jpg"; class = "front"> <br>
+
+
+
+
 <div class="about">
   <h2> About </h2>
   <p> Hello, My name is Mohammad Sarker and I am a Undergraduate at Queens College studying Computer Science. I am familiar with Java,
@@ -71,7 +118,7 @@
 
   <div class="contact">
 <h2> Contacts </h2>
-    <p> Feel free to contact me at Sarkermt1@gmail.com </p>
+    <p style> Feel free to contact me at <b>Sarkermt1@gmail.com</b> </p>
 
   </div>
 
