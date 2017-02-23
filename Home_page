@@ -11,7 +11,7 @@
   nav {
       float: left;
       max-width: 100px;
-      margin: 10px;
+      margin: 0px;
       padding: 0px;
       border:2px solid black;
       background-color: #333333;
@@ -47,14 +47,14 @@ nav li a:hover{
     border: 5px solid black;
     outline-color:white;
     outline-style: solid;
-    width: 1280px;
+    width: 1220px;
     height: 500px;
     display: block;
     margin:auto;
   }
 
-  div.about{
-
+  #about{
+    border:1px solid black;
     text-align: center;
     font-size: 25px;
     font-family: courier;
@@ -63,7 +63,8 @@ nav li a:hover{
     padding:10px;
   }
 
-  div.contact{
+  #contact{
+
     text-align: center;
     font-size: 15px;
     font-family: courier;
@@ -71,7 +72,8 @@ nav li a:hover{
     padding: 10px;
 
   }
-  div.sideprojects{
+  #sideprojects{
+    border:1px solid black;
     text-align: center;
     font-size: 25px;
     font-family: courier;
@@ -84,14 +86,16 @@ nav li a:hover{
   p{
     text-align: center;
   }
-
+  h4{
+    text-align: center;
+  }
 
 </style>
 
 </head>
 
 <body>
-
+  <h4> Mohammad Sarker </h4> <br>
   <nav>
   <ul>
    <li><a href="#about">About</a></li>
@@ -99,29 +103,32 @@ nav li a:hover{
    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
-  <img src="BackGround_Pictures/Bridge.jpg" alt="Tunnel.jpg"; class = "front"> <br>
+
+
+
+<img src="images/Bridge.jpg" alt="Tunnel.jpg"; class = "front"> <br>
 
 
 
 
-<div class="about">
+<div id="about">
   <h2> About </h2>
-  <p> Hello, My name is Mohammad Sarker and I am a Undergraduate at Queens College studying Computer Science. I am familiar with Java,
+  <p> Hello, my name is Mohammad Sarker and I am a Undergraduate at Queens College studying Computer Science. I am familiar with Java,
     C++, and Markup languages such as HTML and CSS. My interest are in software development with a niche towards Game creation.  </p>
-</div>
+</div> <hr>
 
-<div class="sideprojects">
+<div id="sideprojects">
   <h2> Projects </h2>
   <p> I have worked on many class projects, and also have developed some of my own.
     The link below will give you access to my github where you may view them.</p>
   </div>
-
-  <div class="contact">
+<hr>
+  <div id="contact">
 <h2> Contacts </h2>
     <p style> Feel free to contact me at <b>Sarkermt1@gmail.com</b> </p>
 
   </div>
-
+<footer>Copyright &copy; MohammadSarker.com</footer>
 </body>
 
 
